@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Random Color Generator</h1>
+    <div class="header">
+        <h1>Random Color Generator</h1>
+    <button onclick="reloadPage()">Get new colors</button>
+    </div>
+    
     <div class="container">
         
     </div>
 </body>
 <script src="./script.js"></script>
+<script>
+    function reloadPage() {
+        location.reload(); // Обновляет текущую страницу
+    }
+</script>
 </html>
